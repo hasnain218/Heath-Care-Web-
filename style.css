@@ -1,0 +1,197 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(assets/back2.avif);
+    background-size: cover;
+    background-position: center;
+    
+    overflow-x: hidden;
+    background-color: gray;
+}
+
+nav {
+    background-color: darkblue;
+    /* position: fixed; */
+    
+}
+
+
+
+.header-section {
+    /* position: fixed; */
+    height: 50px;
+    width: 900px;
+    border: 3px solid rgb(76, 197, 237);
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 250px;
+    background-color: rgb(76, 197, 237);
+
+
+}
+
+.header-section li,
+a {
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+
+input {
+    position: absolute;
+    background-color: darkblue;
+    color: white;
+    padding: 3px 10px;
+    border: 2px solid rgb(76, 197, 237);
+    border-radius: 25px;
+    top: 36px;
+    left: 2px;
+    height: 30px;
+    width: 170px;
+    border: 2px solid rgb(76, 197, 237);
+    border-radius: 20px;
+}
+
+#Search-btn {
+
+    height: 30px;
+    width: 50px;
+}
+
+.hero-section {
+    width: 1422px;
+    height: 300px;
+}
+
+#WelCome1 {
+    font-size: 32px;
+    position: absolute;
+    top: 100px;
+    left: 840px;
+
+}
+
+#o-btn {
+    padding: 15px 30px;
+    font-size: 16px;
+    color: black;
+    border: 2px solid darkblue;
+    border-radius: 25px;
+    position: absolute;
+    top: 395px;
+    left: 837px;
+    background-color: darkblue;
+    color: white;
+
+}
+
+#login-btn {
+    background-color: darkblue;
+    color: white;
+    padding: 15px 30px;
+    border: 2px solid rgb(76, 197, 237);
+    border-radius: 25px;
+    position: absolute;
+    top: 32px;
+    left: 1240px;
+
+}
+
+#about-website {
+    font-size: 24px;
+    position: absolute;
+    top: 165px;
+    left: 842px;
+}
+
+#about-treatment {
+    font-size: 18px;
+    position: absolute;
+    top: 259px;
+    left: 842px;
+}
+
+#content-us {
+    padding: 15px 30px;
+    font-size: 16px;
+    color: black;
+    border: 2px solid darkblue;
+    border-radius: 25px;
+    position: absolute;
+    top: 395px;
+    left: 1255px;
+    background-color: darkblue;
+    color: white;
+
+}
+
+#search-btn {
+    position: absolute;
+    top: 43px;
+    left: 147px;
+    color: white;
+    background-color: rgb(76, 197, 237);
+    border: 2px solid rgb(76, 197, 237) ;
+    border-radius: 25px;
+
+
+}
+
+
+.hero-img{
+    margin-top: 3px;
+}
+
+#p-1{
+   
+    font-size: 20px;
+}
+#img-section{
+
+    margin: left 25px;
+}
+
+#p-2{
+
+    font-size: 20px;
+
+}
+
+#p-3 , li{
+
+    margin: 10px 10px 10px 10px;
+    font-size: 20px;
+    
+}
+.about-us{
+    font-size: 20px;
+}
+
+.public-message{
+    position: absolute;
+    top: 1389px;
+    left: 545px;
+}
+.p-m{
+    margin: 10px;
+    font-size: 24px;
+}
+
+
+footer{
+    background-color: cornflowerblue;
+    height: 83px;
+    width: 100vw;
+}
+
+.copyright{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+

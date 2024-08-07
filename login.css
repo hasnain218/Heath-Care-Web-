@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(assets/sign_up.jpg);
+}
+
+
+.header-section {
+
+    height: 50px;
+    width: 900px;
+    border: 3px solid rgb(76, 197, 237);
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 250px;
+    background-color: rgb(76, 197, 237);
+
+
+}
+
+.header-section li,
+a {
+
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+
+
+.login {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#loginform {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 2px solid skyblue;
+    border-radius: 25px;
+    height: 400px;
+    width: 700px;
+    margin-left: 340px;
+}
+
+#loginform label {
+
+
+    font-weight: 700;
+    font-size: 24px;
+}
+
+#loginform input {
+
+    color: white;
+    height: 35px;
+    background-color: rgba(20, 8, 8, 0.281);
+    border: 2px solid skyblue;
+    border-radius: 25px;
+}
+
+#loginform button {
+    position: absolute;
+    top: 410px;
+    width: 110px;
+    height: 35px;
+    background-color: rgb(76, 197, 237);
+    border: 2px solid rgb(76, 197, 237);
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+
+#loginform a {
+
+    position: absolute;
+    left: 428px;
+    top: 480px;
+    color: black;
+    font-weight: 600;
+
+}
+
+#forgot_password{
+
+    position: absolute;
+    left: 828px;
+    top: 480px;
+    color: black;
+    font-weight: 600;
+
+}
+
+
+footer {
+    background-color: cornflowerblue;
+    height: 83px;
+    width: 100vw;
+}
+
+.copyright {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(assets/sign_up.jpg);
+}
+
+
+
+.header-section {
+
+    height: 50px;
+    width: 900px;
+    border: 3px solid rgb(76, 197, 237);
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 250px;
+    background-color: rgb(76, 197, 237);
+
+
+}
+
+.header-section li,
+a {
+
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+
+.contact-us{
+    position: absolute;
+    top: 185px;
+    left: 610px;
+
+}
+.contact_us{
+
+    position: absolute;
+    top: 250px;
+    left: 435px;
+    
+}
+.con_pri{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+footer {
+    position: absolute;
+    top: 529px;
+    background-color: cornflowerblue;
+    height: 83px;
+    width: 100vw;
+}
+
+.copyright {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
